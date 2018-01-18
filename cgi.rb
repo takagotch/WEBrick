@@ -6,5 +6,6 @@ cgi.out(type: 'text/html',
   get = cgi['a']
   "<html><body><p>#{get}</p></body></html>"
 end
+#=> ipaddr:port/cgi?a=hoge
 
 
